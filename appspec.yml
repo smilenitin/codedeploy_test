@@ -6,11 +6,9 @@ files:
 permissions:
    - object: /var/www/html
      pattern: "**"
-     owner: apache
-     group: apache
+     owner: root
+     group: root
      mode: 755
-     type:
-       - file
 hooks:
    BeforeInstall:
     - location: Scripts/installapache.sh
