@@ -1,2 +1,2 @@
 #!/bin/bash
-apt-get install httpd > /var/log/installapache.out 2>&1
+apt-get -y install httpd > /var/log/installapache.out 2>&1
